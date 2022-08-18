@@ -23,14 +23,14 @@ function ContactSection() {
                 <Text h2 css={{ lh: '120%' }}>Got a project or a partnership in mind?</Text>
                 <Spacer y={1} />
                 <Row>
-                  {/* <ContactBox title="phone" Icon={TiPhone} data={['+509 3200-2463', '+509 3608-3445']} />
-                  <ContactBox title="email" Icon={BsFillEnvelopeFill} data={['user@email.com', 'example@domain.cpm']} /> */}
+                  <ContactBox title="phone" Icon={TiPhone} data={['+509 3200-2463', '+509 3608-3445']} />
+                  <ContactBox title="email" Icon={BsFillEnvelopeFill} data={['user@email.com', 'example@domain.cpm']} />
                 </Row>
               </Fade>
             </Col>
           </Grid>
           <Grid md={6}>
-            {/* <ContactForm /> */}
+            <ContactForm />
           </Grid>
         </Grid.Container>
       </Container>
