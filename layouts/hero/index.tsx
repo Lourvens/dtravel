@@ -15,7 +15,7 @@ import FeatureSection from './feature';
 import MediaSection from './media';
 import styles from './styles';
 import Image from 'next/image';
-
+const maskUrl = () => import('@/assets/mask.svg')
 function HeroSection() {
   return (
     <Section css={{ mt: '$20' }}>
@@ -69,9 +69,11 @@ function HeroSection() {
             <Image
               src={banner}
               style={{
-                maskImage: `url(${mask})`,
+                borderRadius: 10, 
+                maskImage: 'url(mask.svg)',
+                WebkitMaskImage: 'url(mask.svg)',
                 maskSize: '100% 100%',
-                maskRepeat: 'no-repeat',
+                WebkitMaskSize: '100% 100%'
               }}
               alt="hero section img"
             />
