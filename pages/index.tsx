@@ -14,6 +14,7 @@ const Home: NextPage = () => {
   return (
     <NextUIProvider theme={theme}>
       <Head>
+        <link rel="icon" type="image/svg+xml" href="/logo.svg" />
         <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
