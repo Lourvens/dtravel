@@ -70,8 +70,8 @@ function HeroSection() {
               src={banner}
               style={{
                 borderRadius: 10, 
-                maskImage: 'url(mask.svg)',
-                WebkitMaskImage: 'url(mask.svg)',
+                maskImage: 'url(/mask.svg)',
+                WebkitMaskImage: 'url(/mask.svg)',
                 maskSize: '100% 100%',
                 WebkitMaskSize: '100% 100%'
               }}
